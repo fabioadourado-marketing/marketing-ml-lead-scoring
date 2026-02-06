@@ -6,7 +6,6 @@ This project aims to build a **Lead Scoring model** using Machine Learning to pr
 
 Using historical demographic, behavioral, and campaign interaction data, the model helps marketing teams **prioritize leads**, **optimize campaign targeting**, and **allocate budget more efficiently**.
 
-The project was developed as part of a postgraduate program in **Data Science**, with a strong focus on **real-world marketing applications**.
 
 ---
 
