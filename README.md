@@ -1,7 +1,7 @@
 Readme 
 # Lead Scoring with Machine Learning for Marketing Campaigns
 
-## 📌 Project Overview
+## Project Overview
 This project aims to build a **Lead Scoring model** using Machine Learning to predict the probability that a customer will respond to a marketing campaign.
 
 Using historical demographic, behavioral, and campaign interaction data, the model helps marketing teams **prioritize leads**, **optimize campaign targeting**, and **allocate budget more efficiently**.
@@ -9,7 +9,7 @@ Using historical demographic, behavioral, and campaign interaction data, the mod
 
 ---
 
-## 🎯 Business Problem
+## Business Problem
 Marketing teams often run campaigns across large customer databases, while only a small fraction of customers actually respond.
 
 **Key question:**
@@ -17,7 +17,7 @@ Marketing teams often run campaigns across large customer databases, while only 
 
 ---
 
-## 📊 Dataset
+## Dataset
 - Public marketing campaign dataset
 - 2,240 customers
 - 29 original features
@@ -34,7 +34,7 @@ Marketing teams often run campaigns across large customer databases, while only 
 
 ---
 
-## 🧹 Data Cleaning
+## Data Cleaning
 The following steps were applied:
 - Removed missing values in `Income` (24 records)
 - Removed extreme income outliers to avoid distortion
@@ -46,7 +46,7 @@ The following steps were applied:
 
 ---
 
-## 🧠 Feature Engineering
+## Feature Engineering
 Raw variables were transformed into meaningful marketing signals:
 
 - `Age` – derived from year of birth
@@ -60,7 +60,7 @@ These features improve interpretability and business relevance.
 
 ---
 
-## 🔍 Exploratory Data Analysis (EDA)
+## Exploratory Data Analysis (EDA)
 Key findings:
 - Only ~15% of customers responded to the campaign (realistic marketing imbalance)
 - Customers who accepted previous campaigns were **3–5x more likely** to respond again
@@ -71,7 +71,7 @@ Key findings:
 
 ---
 
-## 🤖 Modeling Approach
+## Modeling Approach
 - Problem type: **Binary Classification**
 - Model: **Logistic Regression**
 - Data split:
@@ -85,7 +85,7 @@ Logistic Regression was chosen for its **interpretability** and strong alignment
 
 ---
 
-## 📈 Model Insights (Marketing Interpretation)
+## Model Insights (Marketing Interpretation)
 The most influential drivers of campaign response were:
 
 **Positive impact:**
@@ -103,7 +103,7 @@ The model learns **behavioral patterns**, not just demographics.
 
 ---
 
-## 💼 Business Actions Enabled
+## Business Actions Enabled
 The model can be directly translated into marketing actions:
 
 - **Lead prioritization:** focus sales and budget on high-probability customers
@@ -113,12 +113,12 @@ The model can be directly translated into marketing actions:
 
 ---
 
-## 🚀 Conclusion
+## Conclusion
 This project demonstrates how Machine Learning can move beyond prediction and deliver **actionable marketing insights**, connecting data, modeling, and real business decisions.
 
 ---
 
-## 🛠️ Tools & Technologies
+## Tools & Technologies
 - Python
 - Pandas, NumPy
 - Scikit-learn
